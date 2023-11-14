@@ -2,7 +2,7 @@
  *
  * Created by: Julianne Leblanc-Peltier
  * Created on: Nov 2023
- * This program makes pixles turn on and off in a diagnal line up and down using the MicroBit
+ * This program makes pixles turn on and off in a diagonal line up and down using the MicroBit
 */
 
 // variables
@@ -14,7 +14,7 @@ basic.showIcon(IconNames.Happy)
 basic.pause(500)
 basic.clearScreen()
 
-// when "A" is pressed, the pixels move down in a diagnol
+// when "A" is pressed, the pixels move down in a diagonal
 input.onButtonPressed(Button.A, function () {
   // setup
   basic.clearScreen()
